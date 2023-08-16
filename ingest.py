@@ -27,8 +27,7 @@ from langchain.docstore.document import Document
 from constants import CHROMA_SETTINGS
 
 
-load_dotenv()
-
+load_dotenv('./example.env')
 
 # Load environment variables
 persist_directory = os.environ.get('PERSIST_DIRECTORY')
