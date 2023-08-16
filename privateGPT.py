@@ -9,7 +9,7 @@ import os
 import argparse
 import time
 
-load_dotenv()
+load_dotenv('./example.env')
 
 embeddings_model_name = os.environ.get("EMBEDDINGS_MODEL_NAME")
 persist_directory = os.environ.get('PERSIST_DIRECTORY')
